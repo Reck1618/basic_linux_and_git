@@ -18,6 +18,7 @@ rm -rf				- rm -rf will delete a directory (r = recursive, f = force).
 	
 
 Git Commands:
+gh repo create 			- push local files to a new git repo form scratch.
 git status 			- it gives information on the current status of a git repository and its contents.
 git init			- use it to create a new git repository, in the current directory.
 git add	/ add .			- use it to add changes in the working directory to the staging area.
