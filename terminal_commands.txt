@@ -1,0 +1,17 @@
+Terminal Commands
+start ./open . 	- Open file explorer
+cd .. 		- Move back
+man command_name- Details of the provided command
+
+Navigation:
+ls(List) 			- list the contents of your current directory.
+cd(Current Directory) 		- use it to change and move between folders.
+pwd(Print Working Directory) 	- prints the path to the working directory.
+
+File Manipulation:
+touch				- use touch to create a file (or multiple).
+mkdir				- use mkdir to create a new directory (or multiple).
+rm				- rm will delete a file or files (permanent).
+rm -rf				- rm -rf will delete a directory (r = recursive, f = force).
+
+ 

@@ -1,0 +1,38 @@
+Terminal Commands:
+ls -a 				- see all files.
+start ./open . 			- open file explorer.
+cd .. 				- move back.
+nano file_name			- to open and edit file in terminal.
+man command_name		- details of the given command.
+
+Navigation:
+ls(List) 			- list the contents of your current directory.
+cd(Current Directory) 		- use it to change and move between folders.
+pwd(Print Working Directory) 	- prints the path to the working directory.
+
+File Manipulation:
+touch				- use touch to create a file (or multiple).
+mkdir				- use mkdir to create a new directory (or multiple).
+rm				- rm will delete a file or files (permanent).
+rm -rf				- rm -rf will delete a directory (r = recursive, f = force).
+	
+
+Git Commands:
+git status 			- it gives information on the current status of a git repository and its contents.
+git init			- use it to create a new git repository, in the current directory.
+git add	/ add .			- use it to add changes in the working directory to the staging area.
+git commit -m "msg"		- use it to actually commit chages from the staging area.
+git log				- it is a utility tool to review and read a history of everything that happens to a repository
+git log --abbrev-commit		- instead of showing the full 40-byte hexadecimal commit object name, show a prefix that names the object uniquely.
+git log --oneline		- this is shorthand for "--pretty=oneline--abbrev-commit" used togeather.
+git commit --amend		- this command ammends the most recent commit.
+
+Note:
+- Do not init a repo inside a repo.
+- Keep each commit Atomic i.e. focused on a single thing.
+- First line of the commit message should surrmarize the commit.
+- Create a file called .gitignore in the root of a repository. Inside the file, we can write patterns to tell Git which files and folders to ignore.
+	# .DS_Store will ignore files named DS_Store.
+	# folderName/ will ignore an entire directory.
+	# *.log will ignore any files with the .log extension.
+-
