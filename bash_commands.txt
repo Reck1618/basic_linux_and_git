@@ -10,6 +10,8 @@ Wildcard		  Description
 [ ]	represents a range, can be [1-3] or [1,2,3]
 ----------------------------------------------------
 
-tree				- Folder tree.
+tree				        - Folder tree.
 mv source_file destination	- Move a file, if it's not a destination it will work as rename.
-cp				- Copy command.
+cp				            - Copy command.
+echo                        - Output the given text in the terminal.
+echo "text" > new_file.txt  - Add the given text in the file.
