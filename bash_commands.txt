@@ -21,6 +21,6 @@ file                        - The file utility can be used to get information ab
 stat                        - The stat utility can be used to provide access information about a file or about the file system where it resides.
 grep                        - The grep utility searches a file for a pattern or string and outputs all lines that match to stdout.
 
-Create a virtual env        - venv name
+Create a virtual env        - python -m venv name
 Start the env               - source name/bin/activate
 Deactivate                  - deactivate
