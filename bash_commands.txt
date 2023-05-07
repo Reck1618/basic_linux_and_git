@@ -23,6 +23,7 @@ grep                        - The grep utility searches a file for a pattern or 
 ln                          - Create a link between files, use -s to create a soft link.
 stat                        - The stat command is used to print out the status of Linux files, directories and file systems.
 file                        - The file command tells you more about the file.
+dd                          - The dd command can be used to convert and copy files. eg dd if=temp.txt of=new_temp.txt conv=ucase.
 
 Compression
 --------------
