@@ -23,10 +23,34 @@ grep                        - The grep utility searches a file for a pattern or 
 ln                          - Create a link between files, use -s to create a soft link.
 stat                        - The stat command is used to print out the status of Linux files, directories and file systems.
 file                        - The file command tells you more about the file.
+
+Compression
+--------------
 gzip                        - Compress a file, -d to decompress, and -l to find more information.
 bip2                        - Compress a file with even smaller size. -d to decompress.
 xz                          - It has the greatest compression ratio. Flags same as gzip.
 
+Archiving
+--------------
+Tar command:                - The word is short for tape archive and the command refers back to early days when backups were made to magnetic tape drives. tar -flags dir_name.tar dir_name.
+-c                          - Create an archive.
+-f                          - Use an archive.
+-r                          - Append to an archive.
+-t                          - List contents of an archive.
+-v                          - Verbose output.
+-x                          - Extract contents of an archive.
+-z                          - Compress the archive using gzip.
+
+Cpio:                       - The cpio command is used to copy files into and out of archives. The name refers to its functionality, "copy in copy out".
+-o                          - Copy out mode copies files into an archive.
+-i                          - Copy in mode copies files out of an archive.
+-p                          - Copy pass copies files from one directory tree to another.
+
+zip/unzip                   - The zip command archives and compresses a set of files. Not recursive, use -r flag.
+
+
+Virtual Environment
+---------------------
 Create a virtual env        - python -m venv name
 Start the env               - source name/bin/activate
 Deactivate                  - deactivate
