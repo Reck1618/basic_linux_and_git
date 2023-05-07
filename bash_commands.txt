@@ -23,6 +23,9 @@ grep                        - The grep utility searches a file for a pattern or 
 ln                          - Create a link between files, use -s to create a soft link.
 stat                        - The stat command is used to print out the status of Linux files, directories and file systems.
 file                        - The file command tells you more about the file.
+gzip                        - Compress a file, -d to decompress, and -l to find more information.
+bip2                        - Compress a file with even smaller size. -d to decompress.
+xz                          - It has the greatest compression ratio. Flags same as gzip.
 
 Create a virtual env        - python -m venv name
 Start the env               - source name/bin/activate
